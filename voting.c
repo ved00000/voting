@@ -22,7 +22,7 @@ struct tally{
 }; votes[MAXLEN];
 
 int main(){
-	
+	//variables
 	FILE *candi, *receipt, *vlist, *reg, *rlist, *tally, *admns;
 	/*Register*/
 		/*ID Generator*/ int lower = 1, upper = 1000000;
